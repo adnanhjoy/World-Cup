@@ -65,7 +65,8 @@ aside {
 
 }
 
-.side-bar {
+.side-bar,
+.match {
     background-color: #161616;
     display: grid;
     grid-template-columns: repeat(1, 1fr);

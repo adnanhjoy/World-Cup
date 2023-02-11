@@ -1,0 +1,15 @@
+.side-bar-button {
+    width: 252px;
+    background-color: #ffffff;
+    height: 50px;
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+    border-radius: 10px;
+    padding-top: 25px;
+}
+
+.match :first-child {
+    background-color: #DD0000;
+    color: #ffffff;
+}
