@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap');
+
+body {
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background-color: #161616;
+    width: 80%;
+    margin: auto;
+    color: white;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.header-content {
+    width: 50%;
+    margin: 0;
+}
+
+.header-title {
+    padding: 105px;
+}
+
+.header-title p {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.header-content img {
+    width: 100%;
+    margin: 0 auto
+}
+
+.button {
+    background-color: #DD0000;
+    padding: 16px 25px;
+    border: none;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.fa-chevron-right {
+    padding-left: 10px;
+}
+
+/* ---------------
+Main Content CSS 
+-----------------*/
+
+.main-content {
+    display: flex;
+    width: 80%;
+    /* margin-top: 10%; */
+    margin: 10% auto 0;
+
+}
+
+aside {
+    width: 30%;
+
+}
+
+.side-bar {
+    background-color: #161616;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    justify-items: center;
+    padding: 5% 0;
+    border-radius: 10px;
+}
+
+.side-bar-button {
+    width: 252px;
+    background-color: #ffffff;
+    height: 50px;
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+    border-radius: 10px;
+    padding-top: 25px;
+}
+
+.side-bar :last-child {
+    background-color: #DD0000;
+    color: #ffffff;
+}
+
+
+main {
+    width: 70%;
+    margin-left: 3%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3%;
+}
+
+article {
+    width: 100%;
+}
+
+article img {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.article-button {
+    border: 1px solid #161616;
+    color: #161616;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+article h2 {
+    font-size: 18px;
+}
+
+span {
+    display: flex;
+    justify-content: space-around;
+}
+
+span p {
+    font-size: 16px;
+    color: #161616b3;
+}
+
+.view-all {
+    display: none;
+}
+
+
+/* ---------------
+Upcomming Match 
+-----------------*/
+
+.match-schedule {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upcoming-match {
+    display: flex;
+    width: 90%;
+    align-items: center;
+}
+
+.upcoming-match img {
+    width: 100%;
+}
+
+.match-title {
+    text-align: center;
+}
+
+/* -----------
+Footer Area 
+-------------*/
+footer {
+    background-color: #161616;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    height: 400px;
+    justify-content: center;
+
+}
+
+footer hr {
+    width: 60%;
+    opacity: 0.1;
+}
+
+.footer-menu {
+    display: flex;
+    width: 60%;
+    font-size: 16px;
+    justify-content: space-between;
+
+}
